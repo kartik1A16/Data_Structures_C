@@ -1,3 +1,16 @@
+/*
+ * Stack Implementation using Array
+ * 
+ * Description:
+ * A stack is a linear data structure that follows Last In First Out (LIFO) principle.
+ * This implementation uses an array to store elements and provides basic operations:
+ * - Push: Add an element to the top
+ * - Pop: Remove an element from the top
+ * 
+ * Time Complexity: O(1) for both push and pop
+ * Space Complexity: O(n) where n is the size of stack
+ */
+
 #include <stdio.h> 
 #define SIZE 5 
 int stack[SIZE], top = -1; 

@@ -1,3 +1,14 @@
+/*
+ * Binary Tree Implementation
+ * 
+ * Description:
+ * A binary tree is a tree data structure where each node has at most two children,
+ * referred to as left child and right child. This implementation demonstrates
+ * basic tree creation and traversal operations.
+ * 
+ * Space Complexity: O(n) where n is number of nodes
+ */
+
 #include <stdio.h> 
 #include <stdlib.h> 
 struct Node { 

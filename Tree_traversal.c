@@ -1,3 +1,16 @@
+/*
+ * Binary Tree Traversals
+ * 
+ * Description:
+ * This program implements three main types of tree traversals:
+ * 1. Inorder (Left-Root-Right)
+ * 2. Preorder (Root-Left-Right)
+ * 3. Postorder (Left-Right-Root)
+ * 
+ * Time Complexity for all traversals: O(n) where n is number of nodes
+ * Space Complexity: O(h) where h is height of tree (due to recursion stack)
+ */
+
 #include <stdio.h> 
 #include <stdlib.h> 
 struct Node { 

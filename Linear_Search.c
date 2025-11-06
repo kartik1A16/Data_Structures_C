@@ -1,3 +1,15 @@
+/*
+ * Linear Search Algorithm
+ * 
+ * Description:
+ * Linear search is the simplest search algorithm that searches for an element
+ * in an array by checking each element sequentially until a match is found
+ * or the end of array is reached.
+ * 
+ * Time Complexity: O(n) - where n is the size of array
+ * Space Complexity: O(1)
+ */
+
 #include <stdio.h> 
 int main() { 
     int a[5] = {10, 20, 30, 40, 50}, key, i, found = 0; 

@@ -1,3 +1,16 @@
+/*
+ * Queue Implementation using Array
+ * 
+ * Description:
+ * A queue is a linear data structure that follows First In First Out (FIFO) principle.
+ * This implementation uses an array to store elements and provides basic operations:
+ * - Enqueue: Add an element to the rear
+ * - Dequeue: Remove an element from the front
+ * 
+ * Time Complexity: O(1) for both enqueue and dequeue
+ * Space Complexity: O(n) where n is the size of queue
+ */
+
 #include <stdio.h> 
 #define SIZE 5 
 int queue[SIZE]; 

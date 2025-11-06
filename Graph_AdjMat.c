@@ -1,3 +1,14 @@
+/*
+ * Graph using Adjacency Matrix
+ * 
+ * Description:
+ * This implementation represents a graph using an adjacency matrix where each cell [i][j]
+ * indicates if there is an edge between vertex i and vertex j.
+ * Value 1 indicates an edge exists, 0 indicates no edge.
+ * 
+ * Space Complexity: O(V^2) where V is the number of vertices
+ */
+
 #include <stdio.h> 
 int main() { 
     int n; 

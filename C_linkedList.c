@@ -1,3 +1,15 @@
+/*
+ * Circular Linked List Implementation
+ * 
+ * Description:
+ * A circular linked list is a linked list where the last node points back to the
+ * head node, creating a circle of nodes. This implementation demonstrates creation
+ * and traversal of a circular linked list.
+ * 
+ * Time Complexity: O(n) for traversal
+ * Space Complexity: O(n) where n is number of nodes
+ */
+
 #include <stdio.h> 
 #include <stdlib.h> 
 struct Node { 

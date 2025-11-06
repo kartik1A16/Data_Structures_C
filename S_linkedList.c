@@ -1,3 +1,15 @@
+/*
+ * Singly Linked List Implementation
+ * 
+ * Description:
+ * A singly linked list is a linear data structure where each node contains data
+ * and a pointer to the next node. This implementation demonstrates creation and
+ * basic traversal of a singly linked list.
+ * 
+ * Time Complexity: O(n) for traversal
+ * Space Complexity: O(n) where n is number of nodes
+ */
+
 #include <stdio.h> 
 #include <stdlib.h> 
 struct Node { 

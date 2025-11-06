@@ -1,3 +1,15 @@
+/*
+ * Doubly Linked List Implementation
+ * 
+ * Description:
+ * A doubly linked list contains nodes with pointers to both next and previous nodes,
+ * allowing traversal in both directions. This implementation demonstrates creation
+ * and basic traversal of a doubly linked list.
+ * 
+ * Time Complexity: O(n) for traversal
+ * Space Complexity: O(n) where n is number of nodes
+ */
+
 #include <stdio.h> 
 #include <stdlib.h> 
 struct Node { 

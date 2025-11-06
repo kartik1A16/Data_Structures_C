@@ -1,3 +1,15 @@
+/*
+ * Insertion Sort Algorithm
+ * 
+ * Description:
+ * Insertion sort builds the final sorted array one item at a time by repeatedly
+ * inserting a key element into its correct position within the sorted portion
+ * of the array.
+ * 
+ * Time Complexity: O(n^2) in worst and average case, O(n) in best case
+ * Space Complexity: O(1)
+ */
+
 #include <stdio.h> 
 int main() { 
     int a[5] = {5, 2, 4, 6, 1}, n = 5, key, j; 
